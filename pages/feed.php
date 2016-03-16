@@ -12,7 +12,7 @@
     //$responseJson2 = file_get_contents('https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=mairocas&include_rts=1&count=15');
 
     // new twitter API 1.1 requires authentication
-    include('../credentials.php');
+    include('credentials.php');
     $connection = new TwitterOAuth($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
  
     $responseJson1 = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=yorikvanhavre&include_rts=1&count=15");
