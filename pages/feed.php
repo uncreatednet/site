@@ -12,11 +12,7 @@
     //$responseJson2 = file_get_contents('https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=mairocas&include_rts=1&count=15');
 
     // new twitter API 1.1 requires authentication
-    require_once("/home/uncrej5i/public_html/twitteroauth/twitteroauth.php"); //Path to twitteroauth library
-    $consumerkey = "KDpF91foLGMYXOgNj42JEg";
-    $consumersecret = "DN4HCRadnd7MDgDkTwRtodGkrOtvA0LB0s1DPtKisw";
-    $accesstoken = "15258297-h9oNIme7pHUygNQQDPEGQx9Z9AcUY4JZXNgkPFP6f";
-    $accesstokensecret = "2GNXGpmM062b4dGlFox1hOKaRkUeGTS10QrEbKVKBU";
+    include('../credentials.php');
     $connection = new TwitterOAuth($consumerkey, $consumersecret, $accesstoken, $accesstokensecret);
  
     $responseJson1 = $connection->get("https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=yorikvanhavre&include_rts=1&count=15");
