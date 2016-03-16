@@ -290,9 +290,9 @@
                     
                 </li>
                 <li>
-                    <a class="button" href="?page=membros" title="Quem somos">
-                        Membros
-                        <div class="trad">Members</div>
+                    <a class="button" href="#" title="Textos e artigos">
+                        Escritos
+                        <div class="trad">Written pieces</div>
                     </a>
                     
                     <?php /*
