@@ -5,6 +5,7 @@
     
     //    página          título                          descrição
     $menu = array(
+    array('condominios',  'Condomínios abertos',          'Ideias para condomínios abertos'),
     array('pirituba',     'Pirituba',                     'Centro comercial de bairro em São Paulo, Brasil'),
     array('itu',          'Itu',                          'Conjunto residencial, comercial e hoteleiro em Itu, Brasil'),
     array('bh',           'Belo Horizonte',               'Centro administrativo da prefeitura de Belo Horizonte, Brasil'),
@@ -290,9 +291,9 @@
                     
                 </li>
                 <li>
-                    <a class="button" href="#" title="Textos e artigos">
-                        Escritos
-                        <div class="trad">Written pieces</div>
+                    <a class="button" href="?page=escritos" title="Textos e artigos">
+                        Ideias escritos
+                        <div class="trad">Written ideas</div>
                     </a>
                     
                     <?php /*
