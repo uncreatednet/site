@@ -420,3 +420,18 @@ ul {
 .hometable td.spacer {
     width: 0;
 }
+
+.text-index {
+    width: 200px;
+    float: left;
+}
+    
+.text-content { 
+    width: 595px;
+    padding-left: 15px;
+    float: right;
+}
+
+.text-article {
+    margin-bottom: 25px;
+}

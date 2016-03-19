@@ -276,7 +276,7 @@
                     
                 </li>
                 <li>
-                    <a class="button" href="?page=escritos" title="Textos e artigos">
+                    <a class="button" href="?page=textos" title="Textos e artigos">
                         Ideias escritos
                         <div class="trad">Written ideas</div>
                     </a>
