@@ -425,6 +425,12 @@ ul {
     width: 200px;
     float: left;
 }
+
+.text-index a {
+    clear: both;
+    margin-bottom: 5px;
+    display: block;
+}
     
 .text-content { 
     width: 580px;
