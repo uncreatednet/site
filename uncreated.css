@@ -427,8 +427,8 @@ ul {
 }
     
 .text-content { 
-    width: 595px;
-    padding: 0 5px 0 15px;
+    width: 580px;
+    padding: 0 15px;
     float: right;
     text-align: justify;
 }
