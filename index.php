@@ -23,21 +23,6 @@
     array('sanisidro',    'San Isidro',                   'Prédio de lofts em Lima, Peru'),
     );
     
-    /* LISTA DE IMAGENS DO SCROLLER (POR ORDEM) - imagens em images/scroller (não usado no momento)
-    //    página          imagem                   descrição 
-    $scroller = array(
-    array('pirituba',     'pirituba.jpg',         'Centro comercial de bairro em São Paulo, Brasil'),
-    array('itu',          'itu.jpg',              'Multi-uso em Itu, Brasil'),
-    array('costadoipe',   'costadoipe2.jpg',      'Costa do Ipê Parque Shopping em Marília, Brasil'),
-    array('bh',           'bh2.jpg',              'Centro administrativo da prefeitura de Belo Horizonte, Brasil'),
-    array('gregoire',     'gl.jpg',               'Casa em São Gonçalo dos Campos, Brazil'),
-    array('indaiatuba',   'indaiatuba.jpg',       'Open mall em Indaiatuba, Brasil'),
-    array('costadoipe',   'costadoipe1.jpg',      'Costa do Ipê Parque Shopping em Marília, Brasil'),
-    array('bh',           'bh1.jpg',              'Centro administrativo da prefeitura de Belo Horizonte, Brasil'),
-    array('pace',         'pace.jpg',             'Sede da ONG PACE, São Gonçalo dos Campos, Brasil'),
-    array('floripa',      'floripa.jpg',          'Cobertura do vão central do mercado público de Florianópolis, Brasil'),
-    ); */
-    
     ?>
 
 <html>
