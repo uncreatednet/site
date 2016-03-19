@@ -428,10 +428,16 @@ ul {
     
 .text-content { 
     width: 595px;
-    padding-left: 15px;
+    padding: 0 5px 0 15px;
     float: right;
+    text-align: justify;
 }
 
 .text-article {
     margin-bottom: 25px;
 }
+
+.text-signed {
+    color: #888888;
+    font-size: 0.9em;
+} 
