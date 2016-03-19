@@ -59,7 +59,7 @@
       <div class="tweet">
           <div class="author">
               <a href="<?php echo $aurl; ?>" title="<?php echo $owner; ?>">
-                  <img class="icon" src="<?php echo $iurl; ?>"/>
+                  <img class="icon" src="<?php echo $iurl; ?>" title="<?php echo $owner; ?>"/>
               </a>
           </div>
           <div class="content">
