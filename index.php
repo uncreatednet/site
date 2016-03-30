@@ -277,8 +277,8 @@
                 </li>
                 <li>
                     <a class="button" href="?page=textos" title="Textos e artigos">
-                        Ideias escritos
-                        <div class="trad">Written ideas</div>
+                        Outros trabalhos
+                        <div class="trad">All our works</div>
                     </a>
                     
                     <?php /*
@@ -341,7 +341,7 @@
             } else if ($_GET['page'] == 'embedded') { 
                 if ($_GET['tag'] != '') { ?>
      
-            <h2>Exemplos </h2>
+            <h2>Todos os trabalhos</h2>
             
             <div class="portugues">
             
