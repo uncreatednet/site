@@ -242,6 +242,8 @@
                     Uncreated.net - Yorik van Havre & Ma&iacute;ra Zasso architects
                 </a>
             </h1>
+            
+            <div class="motto">architecture for human beings</div>
 
             <ul id="menu">
                 <li>
