@@ -279,9 +279,24 @@
                 </li>
                 <li>
                     <a class="button" href="?page=embedded&tag=works" title="Todos os nossos trabalhos">
-                        Outros trabalhos
-                        <div class="trad">All our works</div>
+                        Outros
+                        <div class="trad">Other works</div>
                     </a>
+                    
+                    <ul>
+                        <li>
+                            <a class="item" href="?page=textos" title="Textos e artigos">
+                                Textos
+                                <div class="trad">Texts</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item" href="?page=publications" title="Publicações sobre o uncreated">
+                                Publicações
+                                <div class="trad">Publications</div>
+                            </a>
+                        </li>
+                    </ul>
                     
                     <?php /*
                     <ul>
