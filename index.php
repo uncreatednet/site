@@ -285,6 +285,24 @@
                     
                     <ul>
                         <li>
+                            <a class="item" href="?page=embed&tag=3d" title="imagens 3D">
+                                3D
+                                <div class="trad">3D</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item" href="?page=embed&tag=detail" title="projetos executivos">
+                                Executivos
+                                <div class="trad">Construction docs</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item" href="?page=embed&tag=animations" title="animations">
+                                Animações
+                                <div class="trad">Animations</div>
+                            </a>
+                        </li>
+                        <li>
                             <a class="item" href="?page=textos" title="Textos e artigos">
                                 Textos
                                 <div class="trad">Texts</div>
