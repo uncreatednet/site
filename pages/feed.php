@@ -1,4 +1,18 @@
-    <h2>Notícias</h2>
+<h2>Notícias</h2>
+    
+<div class="portugues">
+    
+    As notícias abaixos provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>.
+    
+</div>
+
+<div class="ingles">
+    
+    The news below come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>.
+    
+</div>
+
+<div style="clear:both;"></div>
 
 <?php
 
