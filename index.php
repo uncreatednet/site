@@ -416,8 +416,11 @@
                 }
             } else {
                 $pagename = 'pages/' . $_GET['page'] . '.html';
+                $phpname = 'pages/' . $_GET['page'] . '.php';
                 if (file_exists($pagename)) {
                     include($pagename);
+                } else if (file_exists($phpname)) {
+                    include($phpname);
                 } else {
                     echo('<div class="portugues">Página ainda não disponível, volte em breve!</div><div class="ingles">Page not available yet, come back soon!</div>');
                 }
