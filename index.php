@@ -279,9 +279,11 @@
                 </li>
                 <li>
                     <a class="button" href="?page=embedded&tag=works" title="Todos os nossos trabalhos">
-                        Outros
-                        <div class="trad">Other works</div>
+                        Últimos trabalhos
+                        <div class="trad">Latest works</div>
                     </a>
+                    
+                    <?php /*
                     
                     <ul>
                         <li>
@@ -316,7 +318,7 @@
                         </li>
                     </ul>
                     
-                    <?php /*
+
                     <ul>
                         <li>
                             <a class="item" href="http://maira.uncreated.net" title="Maíra Zasso, arquiteta">
