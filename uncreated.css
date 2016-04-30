@@ -339,7 +339,7 @@ ul {
     font-family: duepuntozero,Arial,Helvetica,sans-serif;
     font-size: 10px;
     float: right;
-    margin: 40px 16px 0 50px;
+    /* margin: 40px 16px 0 50px; */
     color: #888888;
     text-align: right;
     font-weight: bold;
