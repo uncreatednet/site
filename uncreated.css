@@ -346,6 +346,10 @@ ul {
     letter-spacing: 2px;
 }
 
+.tweet .date {
+    margin: 0,0,0,0;
+}
+
 .date img {
     margin-top: -6px !important;
     }
