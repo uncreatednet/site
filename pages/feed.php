@@ -1,20 +1,4 @@
 <h2>Notícias</h2>
-    
-<div class="portugues">
-    
-    As notícias abaixos provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>. Veja 
-    também <a href="http://www.twitter.com/mairocas">Maíra</a> e <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> no Twitter.
-    
-</div>
-
-<div class="ingles">
-    
-    The news below come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>. See also
-     <a href="http://www.twitter.com/mairocas">Maíra</a> and <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> on Twitter.
-    
-</div>
-
-<div style="clear:both;"></div>
 
 <?php
 
@@ -29,7 +13,7 @@ function geturls($input) {
 // get a token for you on https://developers.facebook.com/tools/explorer/
 // and make it permanent http://stackoverflow.com/questions/12168452/long-lasting-fb-access-token-for-server-to-pull-fb-page-info
 $token= "EAAYfFihpAfUBALioZB3HEJf6GuS1fjEpeJZAsfFEsugpqn7IuaZAtVVdWJsPNbXcIlIP4ha9SXvDu1lueSTUjZBRZAHnrHdvWzZCkxQ7HBMNhZCUpQeRlSTtvhQgJozZABOJXmDtErmAH7pF0BmSLyOZCmD1Ws3PiZCpEZD";
-$pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.6/me/feed?fields=id,story,link,message,full_picture&access_token=".$token)); 
+$pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.6/me/feed?fields=id,story,link,message,created_time,full_picture&access_token=".$token)); 
 
 //var_dump($pageposts);
 
@@ -61,3 +45,17 @@ foreach ($pageposts->data as $fppost) {
 <?php
 }
 ?>
+
+<div class="portugues">
+    
+    As notícias abaixos provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>. Veja 
+    também <a href="http://www.twitter.com/mairocas">Maíra</a> e <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> no Twitter.
+    
+</div>
+
+<div class="ingles">
+    
+    The news below come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>. See also
+     <a href="http://www.twitter.com/mairocas">Maíra</a> and <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> on Twitter.
+    
+</div>
