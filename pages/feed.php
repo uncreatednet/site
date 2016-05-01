@@ -24,8 +24,10 @@ function geturls($input) {
     return $output; 
 }
 
-$token= "EAACEdEose0cBAAEbd6qTmBcsN4ZC6C9W63oZCZBdmvR6tiSZC1HZA9pC6ZB5rYFQRMgO48CCZCZAEl7wFJM6DJq4sF03dvXl9nOKxle58l5GKFdZAGY0Vjb6CF8PGjcB40sGs26CFBF3Qzr6zl5qOyh7GHypn5WbN9oFdH0cyeJuxBwZDZD";
-$pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.6/me/feed?access_token=".$token)); 
+// get a token for you on https://developers.facebook.com/tools/explorer/
+// and make it permanent http://stackoverflow.com/questions/12168452/long-lasting-fb-access-token-for-server-to-pull-fb-page-info
+$token= "EAAYfFihpAfUBALioZB3HEJf6GuS1fjEpeJZAsfFEsugpqn7IuaZAtVVdWJsPNbXcIlIP4ha9SXvDu1lueSTUjZBRZAHnrHdvWzZCkxQ7HBMNhZCUpQeRlSTtvhQgJozZABOJXmDtErmAH7pF0BmSLyOZCmD1Ws3PiZCpEZD";
+$pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.6/me/feed?fields=id,story,link,message,full_picture&access_token=".$token)); 
 
 //var_dump($pageposts);
 
@@ -42,16 +44,14 @@ foreach ($pageposts->data as $fppost) {
             </div>
             <div class="text">
 <?php
-                $fpimage = json_decode(file_get_contents("https://graph.facebook.com/v2.6/".$fppost->id."?fields=full_picture&access_token=".$token)); 
-                $fplink = json_decode(file_get_contents("https://graph.facebook.com/v2.6/".$fppost->id."?fields=link&access_token=".$token));
-                if (property_exists($fpimage, 'full_picture'))
-                    echo "<img src=\"".$fpimage->full_picture."\"/><br/><br/>";
+                if (property_exists($fppost, 'full_picture'))
+                    echo "<img src=\"".$fppost->full_picture."\"/><br/><br/>";
                 if (property_exists($fppost, 'message')) // Some posts don't have message property
                     echo geturls($fppost->message); 
                 else if (property_exists($fppost, 'story'))
                     echo geturls($fppost->story); 
-                if (property_exists($fplink, 'link'))
-                    echo "<br/><br/><small>".geturls($fplink->link)."</small>"; 
+                if (property_exists($fppost, 'link'))
+                    echo "<br/><br/><small>".geturls($fppost->link)."</small>"; 
 ?>
             </div>
         </div>
