@@ -2,13 +2,15 @@
     
 <div class="portugues">
     
-    As notícias abaixos provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>.
+    As notícias abaixos provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>. Veja 
+    também <a href="http://www.twitter.com/mairocas">Maíra</a> e <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> no Twitter.
     
 </div>
 
 <div class="ingles">
     
-    The news below come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>.
+    The news below come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>. See also
+     <a href="http://www.twitter.com/mairocas">Maíra</a> and <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> on Twitter.
     
 </div>
 
