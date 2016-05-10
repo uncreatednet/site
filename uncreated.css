@@ -467,8 +467,7 @@ ul {
 @media screen and (max-width: 799px) {
 
     table, tbody {
-        display: block;
-        width: 100%;
+        max-width: 95%;
         clear: both;
     }
 
