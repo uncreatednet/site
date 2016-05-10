@@ -62,6 +62,7 @@
 <?php } ?>
 
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="alternate" type="application/rss+xml" title="Maíra's feed" href="http://maira.uncreated.net/?feed=rss2"/>
         <link rel="alternate" type="application/rss+xml" title="Yorik's feed" href="http://feeds.feedburner.com/yorikvanhavre"/>
