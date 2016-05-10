@@ -486,5 +486,9 @@ ul {
     .hometable img {
         max-width: 264px;
     }
+    
+    .tweet {
+        max-width: 85%;
+    }
 
 }
