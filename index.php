@@ -293,7 +293,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="item" href="?page=textos" title="Textos e artigos">
+                            <a class="item" href="?page=textos" title="Textos e artigos escritos por nós">
                                 Textos e artigos
                                 <div class="trad">Texts and articles</div>
                             </a>
