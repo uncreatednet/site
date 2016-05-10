@@ -422,6 +422,8 @@ ul {
 
 .hometable td {
     padding: 0;
+    max-width: 95%;
+    float: left;
 }
 
 .hometable img {
@@ -462,3 +464,15 @@ ul {
     color: #888888;
     font-size: 0.9em;
 } 
+
+@media screen and (max-width: 799px) {
+
+    table, tbody {
+        display: block;
+        width: 100%;
+    }
+
+    thead {
+        display: none;
+    }
+}
