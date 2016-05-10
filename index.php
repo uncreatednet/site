@@ -280,10 +280,31 @@
                     
                 </li>
                 <li>
-                    <a class="button" href="?page=embedded&tag=works" title="Todos os nossos trabalhos">
-                        Últimos trabalhos
-                        <div class="trad">Latest works</div>
+                    <a class="button" href="#" title="Mais trabalhos da gente">
+                        Outros
+                        <div class="trad">Other works</div>
                     </a>
+                    
+                    <ul>
+                        <li>
+                            <a class="item" href="?page=embedded&tag=works" title="Todos os nossos trabalhos">
+                                Últimos trabalhos
+                                <div class="trad">Latest works</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item" href="?page=textos" title="Textos e artigos">
+                                Textos e artigos
+                                <div class="trad">Texts and articles</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="item" href="?page=publications" title="Publicações sobre o uncreated">
+                                Publicações
+                                <div class="trad">Publications</div>
+                            </a>
+                        </li>
+                    </ul>
                     
                     <?php /*
                     
