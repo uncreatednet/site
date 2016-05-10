@@ -423,7 +423,6 @@ ul {
 .hometable td {
     padding: 0;
     max-width: 95%;
-    float: left;
 }
 
 .hometable img {
@@ -475,4 +474,9 @@ ul {
     thead {
         display: none;
     }
+
+    .hometable td {
+        float: left;
+    }
+
 }
