@@ -469,6 +469,7 @@ ul {
     table, tbody {
         display: block;
         width: 100%;
+        clear: both;
     }
 
     thead {
