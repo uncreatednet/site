@@ -480,3 +480,11 @@ ul {
     }
 
 }
+
+@media screen and (max-width: 479px) {
+
+    .hometable img {
+        max-width: 264px;
+    }
+
+}
