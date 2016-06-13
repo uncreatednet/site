@@ -12,7 +12,7 @@ function geturls($input) {
 
 // get a token for you on https://developers.facebook.com/tools/explorer/
 // and make it permanent http://stackoverflow.com/questions/12168452/long-lasting-fb-access-token-for-server-to-pull-fb-page-info
-$token= "EAAYfFihpAfUBALioZB3HEJf6GuS1fjEpeJZAsfFEsugpqn7IuaZAtVVdWJsPNbXcIlIP4ha9SXvDu1lueSTUjZBRZAHnrHdvWzZCkxQ7HBMNhZCUpQeRlSTtvhQgJozZABOJXmDtErmAH7pF0BmSLyOZCmD1Ws3PiZCpEZD";
+$token= "EAAYfFihpAfUBAIO7KCm7IE3lReIbQ9ygFzouZAGZAZCbIq5EwMHQzdxSIZAZBsL1TmwBZAuVkwsBiWXQZC9axOHfhC6dIKyd3Qk12QsBVJmuB9ZBrgM6KPXwsbjP2jwZAMkdJDMqeMddDwyA6Muh72saN3CaP91XPyIgZD";
 $pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.6/me/feed?fields=id,story,link,message,created_time,full_picture&access_token=".$token)); 
 
 //var_dump($pageposts);
