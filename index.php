@@ -280,6 +280,12 @@
                     
                 </li>
                 <li>
+                    <a class="item" href="?page=embedded&tag=works" title="Todos os nossos trabalhos">
+                        Últimos trabalhos
+                        <div class="trad">Latest works</div>
+                    </a>
+                    
+                    <?php /*
                     <a class="button" href="#" title="Mais trabalhos da gente">
                         Outros
                         <div class="trad">Other works</div>
@@ -305,6 +311,7 @@
                             </a>
                         </li>
                     </ul>
+                    */ ?>
                     
                     <?php /*
                     
