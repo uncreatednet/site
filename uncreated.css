@@ -492,3 +492,46 @@ ul {
     }
 
 }
+
+@media print {
+
+    #wrapper {
+        box-shadow: none;
+        opacity: 1.0;
+    }
+    
+    #menu, #fbouc {
+        display: none;
+    }
+    
+    h1 {
+        background: transparent;
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    h1 a {
+        height: auto;
+        text-decoration: none;
+    }
+    
+    h2 {
+        padding-left: 0;
+    }
+
+    .hometable, .motto, h1, #wrapper {
+        padding: 0;
+        margin: 0;
+    }
+
+    .portugues, .ingles {
+        width: 295px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .ingles {
+        margin-left: 15px;
+    }
+
+}    
