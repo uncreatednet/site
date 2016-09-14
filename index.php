@@ -406,9 +406,17 @@
                     }
                 }
             } else if ($_GET['page'] == 'embedded') { 
-                if ($_GET['tag'] != '') { ?>
-     
+                if ($_GET['tag'] != '') { 
+                    if ($_GET['tag'] == 'works') {
+                        
+?>
             <h2>Todos os trabalhos</h2>
+            
+<?php               } else { ?>
+    
+            <h2>Exemplos: <?php echo $_GET['tag']; ?></h2>
+
+<?php               } ?>
             
             <div class="portugues">
             
