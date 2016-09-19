@@ -12,8 +12,9 @@ function geturls($input) {
 
 // get a token for you on https://developers.facebook.com/tools/explorer/
 // and make it permanent http://stackoverflow.com/questions/12168452/long-lasting-fb-access-token-for-server-to-pull-fb-page-info
-$token= "EAAYfFihpAfUBAIO7KCm7IE3lReIbQ9ygFzouZAGZAZCbIq5EwMHQzdxSIZAZBsL1TmwBZAuVkwsBiWXQZC9axOHfhC6dIKyd3Qk12QsBVJmuB9ZBrgM6KPXwsbjP2jwZAMkdJDMqeMddDwyA6Muh72saN3CaP91XPyIgZD";
-$pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.6/me/feed?fields=id,story,link,message,created_time,full_picture&access_token=".$token)); 
+$token= "EAAYfFihpAfUBACUd1fmNGQORANgkDhUyLlN6VnRrMki4Vaw4Qnfro8okNMXOxqAmLTuEGbt2dRx3g24YfUSVDqhjAjsgsJjCw0maBqaAJQBKhLkZCwZAaWLwZBk4ZBf9mCQB25DU6iYkuHYIvvi0pzG6ZBtG4MSEZD";
+$expiry="1474322354";
+$pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.7/me/feed?fields=id,story,link,message,created_time,full_picture&access_token=".$token)); 
 
 //var_dump($pageposts);
 
@@ -48,14 +49,14 @@ foreach ($pageposts->data as $fppost) {
 
 <div class="portugues">
     
-    As notícias abaixos provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>. Veja 
+    As notícias abaixos provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>. Siga 
     também <a href="http://www.twitter.com/mairocas">Maíra</a> e <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> no Twitter.
     
 </div>
 
 <div class="ingles">
     
-    The news below come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>. See also
+    The news below come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>. Also follow
      <a href="http://www.twitter.com/mairocas">Maíra</a> and <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> on Twitter.
     
 </div>
