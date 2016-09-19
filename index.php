@@ -198,12 +198,16 @@
             <?php //<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script> ?>
             <div id="fbouc">
                 
+                <a href="/project" style="float:right; padding-left: 6px;" title="Project manager">
+                    <img src="images/capacete.png">
+                </a>
+                
                 <a href="/cloud" style="float:right; padding-left: 6px;" title="Cloud">
                     <img src="images/owncloud.png">
                 </a>
                 
-                <a href="/project" style="float:right; padding-left: 6px;" title="Project manager">
-                    <img src="images/capacete.png">
+                <a href="/inventario" style="float:right; padding-left: 6px;" title="Inventário de receitas">
+                    <img src="images/inventario.png">
                 </a>
                 
                 <a href="https://github.com/uncreatednet" style="float:right; padding-left: 6px;" title="Uncreated on Github">
