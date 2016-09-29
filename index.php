@@ -210,6 +210,8 @@
                     <img src="images/owncloud.png">
                 </a>
                 
+                &nbsp;&nbsp;
+                
                 <a href="/inventario" style="float:right; padding-left: 6px;" title="Inventário de receitas">
                     <img src="images/inventario.png">
                 </a>
