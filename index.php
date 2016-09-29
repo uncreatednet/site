@@ -202,6 +202,10 @@
                     <img src="images/capacete.png">
                 </a>
                 
+                <a href="/priceapi/webprice.py" style="float:right; padding-left: 6px;" title="Busca de preços da construção civil">
+                    <img src="images/price.png">
+                </a>
+                
                 <a href="/cloud" style="float:right; padding-left: 6px;" title="Cloud">
                     <img src="images/owncloud.png">
                 </a>

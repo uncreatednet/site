@@ -464,6 +464,28 @@ ul {
     font-size: 0.9em;
 } 
 
+.webprice-sources {
+    padding: 0 20px 10px 40px;
+    font-size: small;
+}
+
+.webprice-form, .webprice-results {
+    padding: 10px;
+}
+
+.webprice-form input, .webprice-form select, .webprice-form fieldset {
+    background: #fff;
+    color: #000;
+    border: 1px solid #888;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.webprice-help {
+    padding: 5px;
+    font-size:small;
+}
+
 @media screen and (max-width: 799px) {
 
     table, tbody {
