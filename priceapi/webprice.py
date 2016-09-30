@@ -139,14 +139,14 @@ htmltemplate = """<html>
             <div>
         </div>        
         <div id="footer">
-            <div>The source code of this application freely available on <a href="https://github.com/yorikvanhavre/priceAPI">github</a><br/></div>
+            <div>The source code of this application is open and freely available on <a href="https://github.com/yorikvanhavre/priceAPI">github</a><br/></div>
             <hr/>
             uncreated.net &bull;
             <a href="http://maira.uncreated.net">Maíra Zasso</a> & 
             <a href="http://yorik.uncreated.net">Yorik van Havre</a> 
             architects &bull; São Paulo, Brasil &bull;
             <a id="contact" href="http://www.uncreated.net">
-                <img align="absbottom" src="images/info.png">
+                <img align="absbottom" src="/images/info.png">
             </a>
             <!-- Start 1FreeCounter.com code -->
             <script language="JavaScript">
@@ -194,10 +194,7 @@ contentstemplate = """
     </fieldset>
 </form>
 
-<h2>"""+translate("Resultados")+"""</h2>
-<div class="webprice-results">
 %contents-results%
-</div>
 """
 
 
@@ -209,7 +206,8 @@ data = cgi.FieldStorage()
 if data.length > 0:
     contentsresults += "got data\n"
     if data.has_key('webprice-terms'):
-        contentsresults += "got terms\n"
+        contentsresults += "<h2>"+translate("Resultados")+"</h2>\n"
+        contentsresults += '<div class="webprice-results">\n'
         terms = data['webprice-terms'].value
         location = None
         if data.has_key('webprice-location'):
@@ -220,7 +218,8 @@ if data.length > 0:
             if data['webprice-sources-select']:
                 if data['webprice-sources-select'] != 'All':
                     source = data['webprice-sources-select'].value
-        contentsresults = getContentsResults(terms,location,source)
+        contentsresults += getContentsResults(terms,location,source)
+        contentsresults += '</div>\n'
 
 contents = contentstemplate.replace("%contents-sources%",getContentsSource())
 contents = contents.replace("%contents-sources-select%",getContentsSourcesSelect())
