@@ -116,7 +116,7 @@ contentstemplate = """
             <select id="webprice-sources-select">
 %contents-sources-select%
             </select>
-            <input type="submit">
+            <input type="submit" value="Buscar">
         </div>
     </fieldset>
 </form>
