@@ -204,7 +204,6 @@ contentstemplate = """
 contentsresults = ''
 data = cgi.FieldStorage()
 if data.length > 0:
-    contentsresults += "got data\n"
     if data.has_key('webprice-terms'):
         contentsresults += "<h2>"+translate("Resultados")+"</h2>\n"
         contentsresults += '<div class="webprice-results">\n'
