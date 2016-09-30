@@ -37,7 +37,7 @@ def getContentsSource():
     result = '    <div class="webprice-source-item"><b>Fontes</b></div>'
     for s in priceapi.sources:
         l = " ".join([s.Name,s.Description,s.City+",",s.Country,str(s.Month).zfill(2)+"/"+str(s.Year)])
-        result += '\n    <div class="webprice-source-item">'+l+'</div>'
+        result += '\n    <div class="webprice-source-item"><a href="'+s.refURL+'">'+l+'</a></div>'
     return result
 
 
@@ -98,7 +98,7 @@ htmltemplate = """<html>
 
 
 contentstemplate = """
-<h3>"""+translate("Busca de preços de insumos da construção civil")+"""</h3>
+<h2>"""+translate("Busca de preços de insumos da construção civil")+"""</h2>
 
 <div class="webprice-sources">
 %contents-sources%
@@ -121,7 +121,7 @@ contentstemplate = """
     </fieldset>
 </form>
 
-<h3>"""+translate("Resultados")+"""</h3>
+<h2>"""+translate("Resultados")+"""</h2>
 <div class="webprice-results">
 %contents-results%
 </div>

@@ -471,14 +471,19 @@ ul {
 
 .webprice-form, .webprice-results {
     padding: 10px;
+    margin: 10px 25px;
 }
 
 .webprice-form input, .webprice-form select, .webprice-form fieldset {
-    background: #fff;
+    background: #eee;
     color: #000;
-    border: 1px solid #888;
+    border: 1px solid #ccc;
     padding: 5px;
     border-radius: 3px;
+}
+
+.webprice-form input, .webprice-form select {
+    background: #fff;
 }
 
 .webprice-help {
