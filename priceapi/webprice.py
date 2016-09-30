@@ -76,6 +76,54 @@ htmltemplate = """<html>
     </head>
 
     <body>
+
+        <div>
+            <div id="fbouc">
+                
+                <a href="/project" style="float:right; padding-left: 6px;" title="Project manager">
+                    <img src="/images/capacete.png">
+                </a>
+                
+                <a href="/priceapi/webprice.py" style="float:right; padding-left: 6px;" title="Busca de preços da construção civil">
+                    <img src="/images/price.png">
+                </a>
+                
+                <a href="/cloud" style="float:right; padding-left: 6px;" title="Cloud">
+                    <img src="/images/owncloud.png">
+                </a>
+                
+                &nbsp;&nbsp;
+                
+                <a href="/inventario" style="float:right; padding-left: 6px;" title="Inventário de receitas">
+                    <img src="/images/inventario.png">
+                </a>
+                
+                <a href="https://github.com/uncreatednet" style="float:right; padding-left: 6px;" title="Uncreated on Github">
+                    <img src="/images/github.png">
+                </a>
+                
+                <a href="https://plus.google.com/107821473504234303924" rel="publisher" style="float:right; padding-left: 6px;" title="Uncreated on Google+">
+                    <img src="/images/googleplus.png">
+                </a>
+                
+                <a href="https://www.facebook.com/uncreated.net" style="float:right; padding-left: 6px;" title="Uncreated on Facebook">
+                    <img src="/images/facebook.png">
+                </a>
+                
+                <a href="https://www.linkedin.com/company/uncreated" style="float:right; padding-left: 6px;" title="Uncreated on LinkedIn">
+                    <img src="/images/linkedin.png">
+                </a>
+                
+                <a href="http://architizer.com/firms/uncreatednet/" style="float:right; padding-left: 6px;" title="Uncreated on Architizer">
+                    <img src="/images/architizer.png">
+                </a>
+                
+                <a href="#" style="float:right; padding-left: 6px;" title="Yorik: @yorikvanhavre&#10;Maíra: @mairocas">
+                    <img src="/images/twitter.png">
+                </a>
+            </div>
+        </div>
+
         <div id="wrapper">
 
             <h1>
@@ -89,9 +137,34 @@ htmltemplate = """<html>
             <div id="content">
 %contents%
             <div>
+        </div>        
+        <div id="footer">
+            <div>The source code of this application freely available on <a href="https://github.com/yorikvanhavre/priceAPI">github</a><br/></div>
+            <hr/>
+            uncreated.net &bull;
+            <a href="http://maira.uncreated.net">Maíra Zasso</a> & 
+            <a href="http://yorik.uncreated.net">Yorik van Havre</a> 
+            architects &bull; São Paulo, Brasil &bull;
+            <a id="contact" href="http://www.uncreated.net">
+                <img align="absbottom" src="images/info.png">
+            </a>
+            <!-- Start 1FreeCounter.com code -->
+            <script language="JavaScript">
+                var data = '&r=' + escape(document.referrer)
+                                 + '&n=' + escape(navigator.userAgent)
+                                 + '&p=' + escape(navigator.userAgent)
+                                 + '&g=' + escape(document.location.href);
+
+                if (navigator.userAgent.substring(0,1)>'3')
+                    data = data + '&sd=' + screen.colorDepth 
+                                + '&sw=' + escape(screen.width+'x'+screen.height);
+
+                document.write('<a href="http://www.1freecounter.com/stats.php?i=85889" target=\"_blank\" >');
+                document.write('<img alt="Free Counter" border=0 hspace=0 '+'vspace=0 src="http://www.1freecounter.com/counter.php?i=85889' + data + '">');
+                document.write('</a>');
+            </script>
+            <!-- End 1FreeCounter.com code -->
         </div>
-        <hr/>
-        <div>The source code of this application freely available on <a href="https://github.com/yorikvanhavre/priceAPI">github</a><br/></div>
     </body>
 </html>
 """
