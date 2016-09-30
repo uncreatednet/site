@@ -491,6 +491,10 @@ ul {
     font-size:small;
 }
 
+.webprice-results-table td {
+    padding: 10px;
+}
+
 @media screen and (max-width: 799px) {
 
     table, tbody {
