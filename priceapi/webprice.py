@@ -36,7 +36,7 @@ def getStylesheet():
 def getContentsSource():
     result = '    <div class="webprice-source-item"><b>Fontes</b></div>'
     for s in priceapi.sources:
-        l = " ".join([s.Name,s.Description,s.City+",",s.Country,str(s.Month).zfill(2)+"/"+str(s.Year)," - CUB: R$ ",s.CUB])
+        l = " ".join([s.Name,s.Description,s.City+",",s.Country,str(s.Month).zfill(2)+"/"+str(s.Year)," - CUB: R$ ",str(s.CUB)])
         result += '\n    <div class="webprice-source-item"><a href="'+s.refURL+'">'+l+'</a></div>'
     return result
 
