@@ -184,7 +184,7 @@ contentstemplate = """
             <label for="webprice-terms">"""+translate("Termos")+"""</label>
             <input name="webprice-terms" type="text" required autofocus>
             <label for="webprice-location">"""+translate("Cidade (opcional)")+"""</label>
-            <input name="webprice-location" type="text">
+            <input name="webprice-location" type="text" value="São Paulo">
             <label for="webprice-sources-select">"""+translate("Fonte")+"""</label>
             <select id="webprice-sources-select">
 %contents-sources-select%
