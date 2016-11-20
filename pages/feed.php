@@ -14,7 +14,7 @@ function geturls($input) {
 // and make it permanent http://stackoverflow.com/questions/12168452/long-lasting-fb-access-token-for-server-to-pull-fb-page-info
 $token= "EAAYfFihpAfUBALrGo8F9Hb9ZAkukfbGbxEKFYrzFastcyQxCeVYcd1UaXjjOrgao4ea0bO0KxwHh9ZCbVbVzcwGEVbtEeOy2pg2PBLW8lH2AZB22WHEfruWbnZBjgdif1nDNqSdoksy18QGdbG7JIloJwu1xMt8ZD";
 $expiry="1474322354";
-$pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.7/me/feed?fields=id,story,link,message,created_time,full_picture&access_token=".$token)); 
+$pageposts = json_decode(file_get_contents("https://graph.facebook.com/v2.8/me/feed?fields=id,story,link,message,created_time,full_picture&access_token=".$token)); 
 
 //var_dump($pageposts);
 
