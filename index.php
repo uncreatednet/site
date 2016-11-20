@@ -260,7 +260,7 @@
 
             <ul id="menu">
                 <li>
-                    <a class="button" href="#" 
+                    <a class="button" href="/" 
                        title="Uma seleção dos nossos projetos de arquitetura">
                         Projetos
                         <div class="trad">Projects</div>
