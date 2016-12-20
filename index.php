@@ -487,9 +487,9 @@
 
             <div id="footer">
                    uncreated.net &bull;
-                   <a href="http://maira.uncreated.net">Maíra Zasso</a> & 
+                   <!--<a href="http://maira.uncreated.net">Maíra Zasso</a> & 
                    <a href="http://yorik.uncreated.net">Yorik van Havre</a> 
-                   architects &bull; São Paulo, Brasil &bull;
+                   architects &bull;--> São Paulo, Brasil &bull;
                    <a id="contact" href="http://www.uncreated.net">
                        <img align="absbottom" src="images/info.png">
                        <?php //<div id="contactinfo"><img src="images/contactinfo.jpg"></div> ?>
