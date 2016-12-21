@@ -5,6 +5,7 @@
     
     //    página          título                          descrição
     $menu = array(
+    array('casaminmax',   'Casa Max/Min',                 'Uma casa minimal e barata'),
     array('casanatureza', 'Casa Natureza',                'Uma casa brasileira nos USA'),
     array('riachofundo',  'Riacho Fundo',                 'UBS Riacho Fundo, Brasília'),
     array('condominios',  'Condos abertos',               'Ideias para condomínios abertos'),
