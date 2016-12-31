@@ -50,14 +50,16 @@ foreach ($pageposts->data as $fppost) {
 
 <div class="portugues">
     
-    As notícias abaixos provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>. Siga 
-    também <a href="http://www.twitter.com/mairocas">Maíra</a> e <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> no Twitter.
+    As notícias acima provêm da nossa <a href="https://www.facebook.com/uncreated.net/">página Facebook</a>. Siga 
+    também <a href="http://www.twitter.com/mairocas">Maíra</a>, <a href="http://www.twitter.com/yorikvanhavre">Yorik</a>
+    ou <a href="http://www.twitter.com/chopinregis">Regis</a> no Twitter.
     
 </div>
 
 <div class="ingles">
     
-    The news below come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>. Also follow
-     <a href="http://www.twitter.com/mairocas">Maíra</a> and <a href="http://www.twitter.com/yorikvanhavre">Yorik</a> on Twitter.
+    The news above come from our <a href="https://www.facebook.com/uncreated.net/">Facebook page</a>. Also follow
+    <a href="http://www.twitter.com/mairocas">Maíra</a>, <a href="http://www.twitter.com/yorikvanhavre">Yorik</a>
+    or <a href="http://www.twitter.com/chopinregis">Regis</a> on Twitter.
     
 </div>
