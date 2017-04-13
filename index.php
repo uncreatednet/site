@@ -200,9 +200,9 @@
             <?php //<script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script> ?>
             <div id="fbouc">
                 
-                <a href="/project" style="float:right; padding-left: 6px;" title="Project manager">
+                <?php /*<a href="/project" style="float:right; padding-left: 6px;" title="Project manager">
                     <img src="images/capacete.png">
-                </a>
+                </a>*/ ?>
                 
                 <a href="/priceapi/webprice.py" style="float:right; padding-left: 6px;" title="Busca de preços da construção civil">
                     <img src="images/price.png">
