@@ -74,6 +74,7 @@
             
             var y = 0; // a altura de scroll do menu
             var maxy = 370; // a altura maxima do menu
+            var timer;
             
             function setup(menuitems) {
                 // altura maxima do menu
