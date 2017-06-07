@@ -72,10 +72,8 @@
         
         <script>
             
-            var step = 0; // a imagem atual do slideshow
             var y = 0; // a altura de scroll do menu
             var maxy = 370; // a altura maxima do menu
-            var scroll = [] // imagens e links para o slideshow
             
             function setup(menuitems) {
                 // altura maxima do menu
@@ -87,36 +85,6 @@
                     menudiv.addEventListener('DOMMouseScroll', mouseMove, false);
                 // callback para chrome/opera/ie
                 menudiv.onmousewheel = mouseMove;
-                // populate the scroller
-                <?php for ( $count = 0; $count < count($scroller); $count += 1) { ?>
-                    scroll[<?php echo $count; ?>] = ['<?php echo $scroller[$count][0];?>','<?php echo $scroller[$count][1];?>','<?php echo $scroller[$count][2];?>'];
-                <?php } ?>
-                slideIt()
-            }
-            
-            function slideIt() {
-                // atualiza o slideshow
-                contentsdiv = document.getElementById('slider');
-                if (contentsdiv) {
-                    cstr = '<a href=?page=' + scroll[step][0] + ' title="' + scroll[step][2];
-                    cstr += '"><img src="images/scroller/' + scroll[step][1];
-                    cstr += '"></a>' + scroll[step][2];
-                    cstr += ' &bull; ';
-                    for (var i=0; i<scroll.length; i++) {
-                        if (i == step) {
-                            cstr += '<span class="cr">' + (i+1) + '</span> ';
-                        } else {
-                            cstr += (i+1) + ' ';
-                        }
-                    }
-                    contentsdiv.innerHTML = cstr;
-                    step++;
-            
-                    if (step == scroll.length) {
-                        step = 0;
-                    }
-                    setTimeout('slideIt()',3000)
-                }
             }
             
             function mouseMove(event){
