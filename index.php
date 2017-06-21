@@ -177,7 +177,7 @@
                     <img src="images/price.png">
                 </a>
                 
-                <a href="/cloud" style="float:right; padding-left: 6px;" title="Cloud">
+                <a href="https://uncreated.net/cloud" style="float:right; padding-left: 6px;" title="Cloud">
                     <img src="images/owncloud.png">
                 </a>
                 
