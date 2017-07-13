@@ -477,7 +477,7 @@
                                         + '&sw=' + escape(screen.width+'x'+screen.height);
 
                            document.write('<a href="http://www.1freecounter.com/stats.php?i=85889" target=\"_blank\" >');
-                           document.write('<img alt="Free Counter" border=0 hspace=0 '+'vspace=0 src="http://www.1freecounter.com/counter.php?i=85889' + data + '">');
+                           document.write('<img alt="Free Counter" border=0 hspace=0 '+'vspace=0 src="https://www.1freecounter.com/counter.php?i=85889' + data + '">');
                            document.write('</a>');
                    </script>
                    <!-- End 1FreeCounter.com code -->
