@@ -422,7 +422,8 @@ ul {
 
 .hometable td {
     padding: 0;
-    max-width: 95%;
+    max-width: 800px;
+    width: 95%;
 }
 
 .hometable img {
