@@ -171,7 +171,7 @@
                 
                 <?php /*<a href="/project" style="float:right; padding-left: 6px;" title="Project manager">
                     <img src="images/capacete.png">
-                </a>*/ ?>
+                </a>
                 
                 <a href="/priceapi/webprice.py" style="float:right; padding-left: 6px;" title="Busca de preços da construção civil">
                     <img src="images/price.png">
@@ -179,7 +179,7 @@
                 
                 <a href="https://uncreated.net/cloud" style="float:right; padding-left: 6px;" title="Cloud">
                     <img src="images/owncloud.png">
-                </a>
+                </a>*/ ?>
                 
                 &nbsp;&nbsp;
                 
