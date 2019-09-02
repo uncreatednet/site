@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 
 <?php
+
+    // NOVOS REDIRECTS
+
+    if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
+        $redir = 'Location: https://www.uncreated.net/yorik/?blog/'.$_GET['tag'];
+        header($redir);
+        die();
+    }
+
+
     // LISTA DE PROJETOS (POR ORDEM NO MENU) - imagens com mesmo nome da página em images/menu
     
     //    página          título                          descrição
@@ -410,11 +420,9 @@
             
             </div>
                     
-<?php               $_GET['complete'] = "";
-                    $_GET['embedded'] = "";
-                    $tag = $_GET['tag'];
-                    $_GET['tag'] = "";
-                    include('yorik/blog/'.$tag);
+<?php               $_GET['complete'] = 3;
+                    $_GET['embedded'] = 1;
+                    include('yorik/guestblog.php');
                 } else if ( ($_GET['post'] != '') and ($_GET['year'] != '') ) {
                     $_GET[$_GET['year']] = $_GET['post'];
                     $_GET['embedded'] = 1;
