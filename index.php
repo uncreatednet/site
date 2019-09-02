@@ -261,7 +261,7 @@
                     
                 </li>
                 <li>
-                    <a class="item" href="?page=embedded&tag=works" title="Todos os nossos trabalhos">
+                    <a class="item" href="works" title="Todos os nossos trabalhos">
                         Últimos trabalhos
                         <div class="trad">Latest works</div>
                     </a>
@@ -345,14 +345,14 @@
                 </li>
                 <li>
                     <a class="button" 
-                       href="?page=sobre" 
+                       href="sobre" 
                        title="Sobre o nosso trabalho de arquitetos">
                         Sobre nós
                         <div class="trad">About us</div>
                     </a>
                 </li>
                 <li>
-                    <a class="button" href="?page=feed" 
+                    <a class="button" href="feed" 
                        title="O que acontece por aqui...">
                         Notícias
                         <div class="trad">Newsfeed</div>
