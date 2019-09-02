@@ -1,0 +1,4 @@
+#Redirect a sub folder to another site
+Redirect 301 /3d http://www.uncreated.net/?page=embedded&tag=3d
+Redirect 301 /cad http://www.uncreated.net/?page=embedded&tag=detail
+Redirect 301 /anim http://vimeo.com/album/16658
