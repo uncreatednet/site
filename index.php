@@ -412,7 +412,9 @@
                     
 <?php               $_GET['complete'] = "";
                     $_GET['embedded'] = "";
-                    include('yorik/blog/'.$_GET['tag']);
+                    $tag = $_GET['tag'];
+                    $_GET['tag'] = "";
+                    include('yorik/blog/'.$tag);
                 } else if ( ($_GET['post'] != '') and ($_GET['year'] != '') ) {
                     $_GET[$_GET['year']] = $_GET['post'];
                     $_GET['embedded'] = 1;
