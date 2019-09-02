@@ -294,41 +294,28 @@
                     </ul>
                     */ ?>
                     
-                    <?php /*
-                    
                     <ul>
                         <li>
-                            <a class="item" href="?page=embedded&tag=3d" title="imagens 3D">
-                                3D
-                                <div class="trad">3D</div>
+                            <a class="item" href="3d" title="imagens 3D">
+                                Imagens 3D
+                                <div class="trad">3D images</div>
                             </a>
                         </li>
                         <li>
-                            <a class="item" href="?page=embedded&tag=detail" title="projetos executivos">
-                                Executivos
-                                <div class="trad">Construction docs</div>
+                            <a class="item" href="cad" title="projetos executivos">
+                                Desenhos CAD
+                                <div class="trad">CAD drawings</div>
                             </a>
                         </li>
                         <li>
-                            <a class="item" href="?page=embedded&tag=animations" title="animations">
+                            <a class="item" href="anim" title="animations">
                                 Animações
                                 <div class="trad">Animations</div>
                             </a>
                         </li>
-                        <li>
-                            <a class="item" href="?page=textos" title="Textos e artigos">
-                                Textos
-                                <div class="trad">Texts</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="item" href="?page=publications" title="Publicações sobre o uncreated">
-                                Publicações
-                                <div class="trad">Publications</div>
-                            </a>
-                        </li>
                     </ul>
-                    
+
+                    <?php /*
 
                     <ul>
                         <li>
