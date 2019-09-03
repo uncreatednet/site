@@ -306,19 +306,19 @@
                     
                     <ul>
                         <li>
-                            <a class="item" href="3d" title="imagens 3D">
+                            <a class="item menu2 menu_imagens" href="3d" title="imagens 3D">
                                 Imagens 3D
                                 <div class="trad">3D images</div>
                             </a>
                         </li>
                         <li>
-                            <a class="item" href="cad" title="projetos executivos">
+                            <a class="item menu2 menu_cad" href="cad" title="projetos executivos">
                                 Desenhos CAD
                                 <div class="trad">CAD drawings</div>
                             </a>
                         </li>
                         <li>
-                            <a class="item" href="anim" title="animations">
+                            <a class="item menu2 menu_anim" href="anim" title="animations">
                                 Animações
                                 <div class="trad">Animations</div>
                             </a>

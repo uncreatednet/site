@@ -166,12 +166,16 @@ ul {
 #menu li ul li a {
     border: none;
     border-radius: 0px;
-    background: #ffffff !important;
+    background: #ffffff;
     font-size: 1.2em;
     padding: 3px 2px 3px 2px;
     margin: 0;
     height: 46px;
     width: 176px;
+}
+
+#menu li ul li a:hover {
+    background: #ffffff;
 }
 
 #menu li ul li a span {
@@ -214,9 +218,30 @@ ul {
     background: -webkit-linear-gradient(#dddddd, #ffffff);
 }
 
+#menu li:hover ul li, #menu li:hover ul li a {
+    background: #ffffff;
+}
+
 #menu li:hover ul {
     visibility: visible;
 }
+
+.menu2 {
+    border: 3px solid white !important;
+    width: 172px !important;
+    }
+
+.menu_imagens {
+    background: linear-gradient(0deg,rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(images/about4.jpg) !important;
+}
+
+.menu_cad {
+    background: linear-gradient(0deg,rgba(255,255,255,0.2),rgba(255,255,255,0.2)), url(images/about1.jpg) !important;
+    }
+
+.menu_anim {
+    background: linear-gradient(0deg,rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url(images/about2.jpg) !important;
+    }
 
 .overlay {
     position: relative;
