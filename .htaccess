@@ -4,4 +4,3 @@ Redirect 301 /cad http://www.uncreated.net/?page=embedded&tag=detail
 Redirect 301 /anim http://vimeo.com/album/16658
 Redirect 301 /works http://www.uncreated.net/?page=embedded&tag=works
 Redirect 301 /sobre http://www.uncreated.net/?page=sobre
-Redirect 301 /feed http://www.uncreated.net/?page=feed

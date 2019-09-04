@@ -213,7 +213,7 @@ if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
                 </li>
 
                 <li>
-                    <a class="button" href="feed" title="O que acontece por aqui...">
+                    <a class="button" href="?page=feed" title="O que acontece por aqui...">
                         Notícias
                         <div class="trad">Newsfeed</div>
                     </a>
