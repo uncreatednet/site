@@ -490,6 +490,15 @@ ul {
     font-size: 0.9em;
 } 
 
+.noticia {
+    margin: 40px 0;
+}
+
+.noticia a {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
 .webprice-sources {
     padding: 0 20px 10px 40px;
     font-size: small;
@@ -596,3 +605,4 @@ ul {
     }
 
 }    
+

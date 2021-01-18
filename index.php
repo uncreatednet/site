@@ -136,6 +136,19 @@ if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
 
             <div class="motto">architecture for human beings</div>
 
+            <div class="noticia">
+                <div class="portugues">
+                    <b>Nota:</b>&nbsp;
+                    O uncreated está agora fundado com o <a href="https://www.openingdesign.com">OpeningDesign</a>, 
+                    uma estrutura maior e mais flexível, baseada em processos open-source. Venha dar uma olhada!
+                </div>
+                <div class="ingles">
+                    <b>Note:</b>&nbsp;
+                    Uncreated is now merged with <a href="https://www.openingdesign.com">OpeningDesign</a>, a bigger and more
+                    flexible structure, entirely based on open-source processes. Come have a look!
+                </div>
+            </div>
+
             <ul id="menu">
 
                 <li>
@@ -213,7 +226,7 @@ if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
                 </li>
 
                 <li>
-                    <a class="button" href="?page=feed" title="O que acontece por aqui...">
+                    <a class="button" href="http://openingdesign.com/portfolio/" title="O que acontece por aqui...">
                         Notícias
                         <div class="trad">Newsfeed</div>
                     </a>
