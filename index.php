@@ -41,19 +41,16 @@ if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
     header($redir);
     die();
 
-?>
-
-<html>
-    <head>
-
-<?php
-
 // Título especial se tiver 'page=' na URL
 
 } else if ($_GET['page'] != '') {
 
-    if ($_GET['page'] == 'publications') { ?>
+    if ($_GET['page'] == 'publications') { 
 
+?>
+
+<html>
+    <head>
         <title>Publicações - Uncreated.net Architecture Network</title>
 
 <?php
@@ -67,6 +64,9 @@ if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
         }
 
 ?>
+
+<html>
+    <head>
         <title><?php echo $title; ?>Uncreated.net Architecture Network</title>
 
 <?php
@@ -78,6 +78,9 @@ if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
 // Nenhuma subpágina
 
 ?>
+
+<html>
+    <head>
         <title>Uncreated.net Architecture Network</title>
 <?php
 
