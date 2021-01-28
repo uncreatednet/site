@@ -1,4 +1,21 @@
+<?php
+
+// Redireção para o blogo do Yorik se tiver 'embedded=' e 'tag=' na URL
+
+if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
+    $redir = 'Location: https://www.uncreated.net/yorik/?blog/'.$_GET['tag'];
+    header($redir);
+    exit;
+}
+
+// Início da página
+
+?>
+
 <!DOCTYPE html>
+
+<html>
+    <head>
 
 <?php
 
@@ -32,25 +49,12 @@ array('openfort',     'Fort 400',         'Prédio de apartamentos',            
 array('sanisidro',    'San Isidro',       'Prédio de lofts',                            'Lima, Peru'),
 );
 
-// Início da página
-
-// Redireção para o blogo do Yorik se tiver 'embedded=' e 'tag=' na URL
-
-if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
-    $redir = 'Location: https://www.uncreated.net/yorik/?blog/'.$_GET['tag'];
-    header($redir);
-    die();
-
 // Título especial se tiver 'page=' na URL
 
-} else if ($_GET['page'] != '') {
+if ($_GET['page'] != '') {
 
-    if ($_GET['page'] == 'publications') { 
+    if ($_GET['page'] == 'publications') { ?>
 
-?>
-
-<html>
-    <head>
         <title>Publicações - Uncreated.net Architecture Network</title>
 
 <?php
@@ -64,9 +68,6 @@ if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
         }
 
 ?>
-
-<html>
-    <head>
         <title><?php echo $title; ?>Uncreated.net Architecture Network</title>
 
 <?php
@@ -78,9 +79,6 @@ if ( ($_GET['page'] == 'embedded') and ($_GET['tag'] != '') ) {
 // Nenhuma subpágina
 
 ?>
-
-<html>
-    <head>
         <title>Uncreated.net Architecture Network</title>
 <?php
 
