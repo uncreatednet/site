@@ -3,3 +3,4 @@ themes/*
 php-cli.ini
 php.ini
 credentials.php
+.htaccess

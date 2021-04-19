@@ -4,3 +4,50 @@ Redirect 301 /cad http://www.uncreated.net/?page=embedded&tag=detail
 Redirect 301 /anim http://vimeo.com/album/16658
 Redirect 301 /works http://www.uncreated.net/?page=embedded&tag=works
 Redirect 301 /sobre http://www.uncreated.net/?page=sobre
+
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 16M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 16M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 16M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 16M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^\.well-known/host-meta /ncloud/public.php?service=host-meta [QSA,L]
+  RewriteRule ^\.well-known/host-meta\.json /ncloud/public.php?service=host-meta-json [QSA,L]
+  RewriteRule ^\.well-known/webfinger /ncloud/public.php?service=webfinger [QSA,L]
+  RewriteRule ^\.well-known/carddav /ncloud/remote.php/dav [R=301,L]
+  RewriteRule ^\.well-known/caldav /ncloud/remote.php/dav [R=301,L]
+</IfModule>
