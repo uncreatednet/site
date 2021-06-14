@@ -570,7 +570,7 @@ ul {
         opacity: 1.0;
     }
     
-    #menu, #fbouc {
+    #menu, #fbouc, .noticia {
         display: none;
     }
     
