@@ -140,7 +140,7 @@ if ($_GET['page'] != '') {
             <div class="noticia">
                 <div class="portugues">
                     <b>Nota:</b>&nbsp;
-                    O uncreated está agora fundado com o <a href="https://www.openingdesign.com">OpeningDesign</a>, 
+                    O uncreated se fundiu com o <a href="https://www.openingdesign.com">OpeningDesign</a>, 
                     uma estrutura maior e mais flexível, baseada em processos open-source. Venha dar uma olhada!
                 </div>
                 <div class="ingles">
