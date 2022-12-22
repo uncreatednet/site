@@ -1,0 +1,8 @@
+# Re-write rules
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI}  /\.well-known/webfinger$
+RewriteCond %{QUERY_STRING} resource=([^&]+)
+RewriteRule ^(.*)$ /webfinger/%1.json [L]
+
+RewriteRule ^/.well-known/webfinger$ - [L,R=400]
